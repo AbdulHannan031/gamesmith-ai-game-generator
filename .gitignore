@@ -1,0 +1,23 @@
+node_modules/
+.next/
+out/
+build/
+.DS_Store
+*.pem
+npm-debug.log*
+.env
+.env*.local
+data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+next-env.d.ts
+tsconfig.tsbuildinfo
+
+# Local secrets — never commit
+git token
+*.token
+
+# Local editor/agent config
+.claude/
