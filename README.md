@@ -45,6 +45,56 @@ handful of small text files that run anywhere.
 </tr>
 </table>
 
+## Games built with it
+
+Every one of these came from a single sentence. No art was uploaded, no engine was
+configured — the agent wrote the code, drew the sprites, authored the levels and tested
+it before handing it over. These are real recordings of the published builds.
+
+<table>
+<tr>
+<td width="50%" align="center">
+  <img src="docs/games/slipstream-circuit.gif" alt="Slipstream Circuit — top-down arcade racing game, car drifting around a circuit" width="100%"><br>
+  <b>Slipstream Circuit</b><br>
+  <sub>Top-down arcade racing: drift the line and beat four rivals over three laps.</sub><br>
+  <sub><i>Tested: steering with grip and slide, rival AI, lap and position tracking</i></sub>
+</td>
+<td width="50%" align="center">
+  <img src="docs/games/starcluck-squadron.gif" alt="Starcluck Squadron — space shooter with descending chicken formations" width="100%"><br>
+  <b>Starcluck Squadron</b><br>
+  <sub>A bottom-up space shooter against descending chicken formations.</sub><br>
+  <sub><i>Tested: projectile pooling, formation waves, boss phases</i></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+  <img src="docs/games/lawn-lineup.gif" alt="Lawn Lineup — lane defence game, planting sunflowers and peashooters against zombies" width="100%"><br>
+  <b>Lawn Lineup</b><br>
+  <sub>Plant sunflowers and peashooters to hold back five waves of zombies.</sub><br>
+  <sub><i>Tested: grid placement, resource economy, pointer input</i></sub>
+</td>
+<td width="50%" align="center">
+  <img src="docs/games/ember-run.gif" alt="Ember Run — side-scrolling platformer, a fox collecting embers across platforms" width="100%"><br>
+  <b>Ember Run</b><br>
+  <sub>Collect the embers, dodge the drifters, reach the lantern.</sub><br>
+  <sub><i>Tested: tilemap collision, coyote time, parallax scene depth</i></sub>
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>The prompts behind them</b></summary>
+
+> **Slipstream Circuit** — *"A top-down arcade racer on a closed circuit. You drive one car around a winding track for three laps against four rivals… the car should feel weighty: it builds speed, slides when you turn hard, and slows dramatically if you clip the grass."*
+
+> **Starcluck Squadron** — *"A Chicken Invaders style arcade shooter. You pilot a small ship along the bottom of the screen, shooting waves of chickens that descend in formation… every fourth wave is a giant chicken boss that lays egg-bombs you have to dodge."*
+
+> **Lawn Lineup** — *"A small lane defence game on a 5x5 lawn. Sunflowers make sun, peashooters shoot down their lane, zombies shamble in from the right. Five waves then a bucket-head boss zombie."*
+
+> **Ember Run** — *"Collect the embers. Reach the lantern."*
+
+</details>
+
 ## Features
 
 | | |
